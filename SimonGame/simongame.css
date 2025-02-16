@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: ghostwhite;
+    text-align: center;
+    justify-content: center;
+}
+
+.button{
+    height: 20vmin;
+    width: 20vmin;
+    border: 5px solid black;
+    border-radius: 30px;
+    margin: 1.2rem;
+}
+.container{
+   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.aqua{
+    background-color: aqua;
+}
+.red{
+    background-color: rgb(219, 54, 98);
+}
+.green{
+    background-color: rgb(167, 232, 184);
+}
+.yellow{
+    background-color: rgb(224, 184, 98);
+}
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: green;
+}
+
+.box2 {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+}
+.rules-box {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+h2 {
+    color: #28a745;
+}
+.rule-list {
+    text-align: left;
+    padding-left: 20px;
+}

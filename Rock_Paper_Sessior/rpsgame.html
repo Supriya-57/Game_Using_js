@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rpsgame.css">
+    <title>Rock Paper Scissor game</title>
+</head>
+<body>
+    
+    <h1>Rock Paper Scissors game</h1>
+
+
+<div class="choices">
+    
+    <div class="choice" id="rock">
+        <img src="rock.png" alt="">
+    </div>
+
+    <div class="choice" id="paper">
+        <img src="paper.png" alt="">
+    </div>
+
+    <div class="choice" id="scissors">
+        <img src="scissors.png" alt="">
+    </div>
+    
+</div>
+    
+<div class="letter">
+    
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>you</p>
+        </div>
+        
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>Comp</p>
+        </div>
+        
+    </div>
+    
+    
+    <div class="msg-container">
+        <p id="msg">Play your move</p>
+    </div>
+    
+</div>
+
+
+
+
+<!-- Rule Box -->
+
+<div class="rules-box">
+    <h2>🕹️ How to Play Rock-Paper-Scissors</h2>
+    <ul class="rule-list">
+        <li>Choose one: ✊ <b>Rock</b>, ✋ <b>Paper</b>, or ✂️ <b>Scissors</b>.</li>
+        <li>The computer will also pick randomly.</li>
+        <li>The winner is decided based on these rules:</li>
+    </ul>
+    <table class="table table-bordered">
+        <thead class="table-primary">
+            <tr>
+                <th>Your Choice</th>
+                <th>Computer’s Choice</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>✊ Rock</td> <td>✂️ Scissors</td> <td>✅ You Win!</td></tr>
+            <tr><td>✋ Paper</td> <td>✊ Rock</td> <td>✅ You Win!</td></tr>
+            <tr><td>✂️ Scissors</td> <td>✋ Paper</td> <td>✅ You Win!</td></tr>
+            <tr><td>✊ Rock</td> <td>✋ Paper</td> <td>❌ You Lose!</td></tr>
+            <tr><td>✋ Paper</td> <td>✂️ Scissors</td> <td>❌ You Lose!</td></tr>
+            <tr><td>✂️ Scissors</td> <td>✊ Rock</td> <td>❌ You Lose!</td></tr>
+            <tr><td>✊ Rock</td> <td>✊ Rock</td> <td>🔵 Draw!</td></tr>
+            <tr><td>✋ Paper</td> <td>✋ Paper</td> <td>🔵 Draw!</td></tr>
+            <tr><td>✂️ Scissors</td> <td>✂️ Scissors</td> <td>🔵 Draw!</td></tr>
+        </tbody>
+    </table>
+    <p class="text-muted">Try to beat the computer! Good luck! 🎮</p>
+</div>
+</div>
+
+
+    <script src="rsp.js"></script>
+</body>
+</html>
